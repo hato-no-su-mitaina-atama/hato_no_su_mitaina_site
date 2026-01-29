@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #767C6B; /* 指定の背景色 */
+    height: 100vh;             /* 画面の高さをいっぱいにする */
+    display: flex;
+    flex-direction: column; /* これを追加！要素を縦に並べる */
+    justify-content: center; /* (縦並びの時は) 上下の真ん中 */
+    align-items: center;     /* (縦並びの時は) 左右の真ん中 */
+    gap: 20px;              /* これを追加！要素同士の間に20pxの隙間を作る */
+}
+
+.parisienne-text {
+    font-family: "Parisienne", cursive;
+    color: #000b00;
+    font-size: 21px;
+    letter-spacing: 2px;
+    font-weight: 400;
+    font-style: normal;
+    transition: color 0.5s ease;
+    text-shadow: 1px 1px 2px rgba(44, 49, 37, 0.2);
+}
+
+.dancing-script-text {
+    font-family: "Dancing Script", cursive;
+    color: #000b00;
+    font-size: 21px;
+    letter-spacing: 2px;
+    font-weight: 400;
+    font-style: normal;
+    transition: color 0.5s ease;
+    text-shadow: 1px 1px 2px rgba(44, 49, 37, 0.2);
+}
